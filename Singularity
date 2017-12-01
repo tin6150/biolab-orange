@@ -1,5 +1,7 @@
 Bootstrap: docker
-From: continuumio:anaconda
+From: continuumio/miniconda:latest
+##From: continuumio:anaconda
+
 ##From: centos:7.3.1611
 
 
