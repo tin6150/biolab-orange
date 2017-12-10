@@ -1,19 +1,23 @@
 biolab-orange
 *************
 
+.. figure: orange3.8_in_singularity_container.png
+    :align: center
+
+
 singularity container for the orange data mining tool from https://orange.biolab.si
 unofficial 
 
 To run:
 
 	singularity pull shub://tin6150/biolab-orange
-	./biolab-orange.simg
+	./tin6150-biolab-orange-master-latest.simg
 
 Container is based on Ubuntu 16.04 from Docker Hub.
 (Could not use Anaconda image as that seems to lack graphics driver and fonts to properly display the GUI tool)
 Also contain firefox so that helps and tutorials can be displayed.
 
-Resulting Singularity image is about 4.5 GB.
+Resulting Singularity image is about 4.5 GB (1.5 GB compressed).
 
 Ref: 
 
