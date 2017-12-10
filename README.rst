@@ -8,7 +8,7 @@ biolab-orange
 singularity container for the orange data mining tool from https://orange.biolab.si
 unofficial 
 
-To run:
+To run::
 
 	singularity pull shub://tin6150/biolab-orange
 	./tin6150-biolab-orange-master-latest.simg
@@ -27,14 +27,14 @@ Ref:
 
 ~~~~
 
-Dev/Build instructions
+Dev/Build instructions ::
 
-SING_VER=2.4.1
-module load container/singularity/${SING_VER}
-Singularity=$( which singularity )
-sudo    $Singularity build -w ./biolab-orange.simg ./Singularity
--or-
-mkdir ./sandbox
-sudo    $Singularity build --sandbox ./sandbox ./Singularity
+	SING_VER=2.4.1
+	module load container/singularity/${SING_VER}
+	Singularity=$( which singularity )
+	sudo    $Singularity build -w ./biolab-orange.simg ./Singularity
+	-or-
+	mkdir ./sandbox
+	sudo    $Singularity build --sandbox ./sandbox ./Singularity
 
 
