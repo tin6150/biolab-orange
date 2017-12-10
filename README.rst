@@ -1,7 +1,7 @@
 biolab-orange
 *************
 
-.. figure: orange3.8_in_singularity_container.png
+.. figure:: orange3.8_in_singularity_container.png
     :align: center
 
 
@@ -27,7 +27,8 @@ Ref:
 
 ~~~~
 
-Dev/Build instructions ::
+Dev/Build instructions 
+.. code:: bash
 
 	SING_VER=2.4.1
 	module load container/singularity/${SING_VER}
